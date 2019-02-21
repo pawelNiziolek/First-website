@@ -1,0 +1,1294 @@
+@media (orientation: landscape) and (min-width: 533px) {
+  .menu {
+    display: none;
+  }
+
+  .header {
+    margin: 50px 0 0;
+    height: 250px;
+  }
+
+  .header1 .content {
+    background-color: rgba(255, 255, 255, .7);
+  }
+
+  .content h2 {
+    font-size: 30px;
+  }
+
+  .content h3 {
+    font-size: 20px;
+  }
+
+  .content h4 {
+    display: none;
+  }
+
+  .content p {
+    font-size: 16px;
+    padding-bottom: 3%;
+    font-weight: normal;
+  }
+
+  .wrap-description {
+    width: 100%;
+    height: 80vh;
+    margin: 8px auto 0;
+  }
+
+  img.desc-logo {
+    display: none;
+  }
+
+  .wrap-description p {
+    top: 0;
+    left: 35%;
+    transform: translate(0, 0);
+    width: 65%;
+    font-size: 19px;
+    padding: 4px 4px 85px 4px;
+  }
+
+  .wrap-description button {
+    position: absolute;
+    bottom: 20px;
+    left: 55%;
+    transform: translateX(0);
+    font-size: 16px;
+    color: white;
+    padding: 3px 0;
+    width: 150px;
+  }
+
+  .hit {
+    background-image: url();
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrap-hit {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .wrap-hit h1 {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .wrap-hit.grow p span {
+    font-size: 19px;
+  }
+
+  .wrap-hit p {
+    padding: 4px;
+    line-height: 20px;
+  }
+
+  .treatments h2 {
+    padding: 2px;
+    margin-bottom: 15px;
+  }
+
+  .treatment {
+    flex-basis: 49%;
+    height: 40vh;
+    margin: 2px;
+  }
+
+  .treatments button {
+    padding: 5px 50px;
+    width: 96%;
+  }
+
+  .treatment h3 {
+    font-size: 18px;
+    text-shadow: 0 0 2px black;
+    padding: 4px 0;
+  }
+
+  .treatment p {
+    padding-top: 2px;
+    font-size: 14px;
+  }
+
+  .gift-card {
+    flex-direction: column;
+    font-size: 16px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 0 8px 0 8px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+  }
+
+  .card p:nth-of-type(2) {
+    font-size: 18px;
+  }
+
+  .pic-card {
+    width: auto;
+    height: 200px;
+  }
+
+  .card a p {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+
+  .contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .map {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .data-contact h2 {
+    font-size: 20px;
+    padding: 2px;
+  }
+
+  .data-contact span,
+  .data-contact p:nth-of-type(4) {
+    font-size: 17px;
+    padding: 4px 0;
+  }
+
+  .data-contact p:nth-of-type(4) a {
+    font-size: 16px;
+  }
+
+  .form label {
+    font-size: 12px;
+  }
+
+  .name-adress {
+    display: none;
+  }
+
+  div.cookie {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 568px) {
+  .wrap-description p {
+    font-size: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+
+  .header {
+    height: 300px;
+  }
+
+  .content h3 {
+    padding: 10px 0;
+    font-size: 22px;
+  }
+
+  .wrap-description p {
+    top: 0;
+    left: 35%;
+    transform: translate(0, 0);
+    width: 65%;
+    font-size: 21px;
+    padding: 8px 8px 96px 8px;
+  }
+
+  .content p {
+    font-size: 19px;
+    padding: 10px 10px;
+  }
+}
+
+
+@media (orientation: landscape) and (min-width: 730px) {
+
+  .header {
+    height: 350px;
+  }
+
+  .content h2 {
+    font-size: 34px;
+  }
+
+  .content h3 {
+    font-size: 24px;
+  }
+
+  .content p {
+    font-size: 19px;
+    padding: 10px 10px;
+  }
+
+  .wrap-description p {
+    font-size: 25px;
+    padding: 12px 8px 120px 8px;
+  }
+
+  .wrap-hit {
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 10px;
+  }
+
+  .wrap-hit h1 {
+    font-size: 26px;
+    padding: 10px;
+  }
+
+  .wrap-hit.grow p span {
+    font-size: 23px;
+  }
+
+  .wrap-hit p {
+    padding: 4px;
+    line-height: 23px;
+    font-size: 20px;
+  }
+
+  .gift-card {
+    font-size: 18px;
+  }
+
+  .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .card h3 {
+    font-size: 24px;
+  }
+
+  .card p:nth-of-type(2) {
+    font-size: 20px;
+  }
+
+  .pic-card {
+    height: 250px;
+  }
+
+  .card a p {
+    font-size: 22px;
+  }
+
+
+  .form-row {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 812px) {
+  .wrap-description button {
+    left: 58%;
+    font-size: 20px;
+  }
+
+  .wrap-contact {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .data-contact {
+    width: 40%;
+    margin: 60px 0 0 0;
+  }
+
+  .wrap-form {
+    width: 60%;
+    margin: 0;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 820px) {
+  .wrap-description p {
+    font-size: 26px;
+    padding: 12px 8px 120px 8px;
+  }
+
+  .wrap-description button {
+    left: 59%;
+    font-size: 20px;
+  }
+
+  .treatment h3 {
+    font-size: 20px;
+  }
+
+  .treatment p {
+    font-size: 18px;
+  }
+
+  .treatments button {
+    font-size: 24px;
+    width: 90%;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+  .menu {
+    display: flex;
+  }
+
+  .menu>div:nth-of-type(1) a,
+  .menu>div:nth-of-type(4) a,
+  .menu>div:nth-of-type(5) a,
+  .menu>div:nth-of-type(6) a,
+  .menu>div:nth-of-type(8) a {
+    font-size: 15px;
+    padding: 13px 3px;
+  }
+
+  .menu>div:nth-of-type(2),
+  .menu>div:nth-of-type(3),
+  .menu>div:nth-of-type(6),
+  .menu>div:nth-of-type(7) {
+    font-size: 15px;
+    padding: 13px 3px;
+  }
+
+  .wrap-menu-media,
+  .menu-ham {
+    display: none;
+  }
+
+  .header {
+    margin: 170px auto 0;
+    height: 38vw;
+  }
+
+  .content h2 {
+    font-size: 60px;
+    padding-bottom: 3%;
+  }
+
+  .content h3 {
+    font-size: 28px;
+    padding-bottom: 2%;
+  }
+
+  .content h4 {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  .content p {
+    display: block;
+    font-size: 18px;
+    padding-bottom: 3%;
+  }
+
+  img.desc-logo {
+    display: block;
+  }
+
+  .wrap-description p {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    width: 36%;
+    font-size: 26px;
+    padding: 10px;
+  }
+
+  .wrap-description button {
+    bottom: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    padding: .7% 0;
+    cursor: pointer;
+  }
+
+  .hit {
+    display: flex;
+    width: 100%;
+    margin: 2% 0 4% 0;
+    background-image: url(../grafika/zdjecia/twarz2.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    transition: .4s,
+  }
+
+  .wrap-hit {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 0;
+    padding: 2% 2% 2% 7%;
+    background-color: rgba(255, 255, 255, .5);
+    font-family: 'Roboto', sans-serif;
+    transform: scale(0);
+    transition: .5s;
+  }
+
+
+  .wrap-hit h1 {
+    font-size: 39px;
+  }
+
+  .wrap-hit a button {
+    margin-top: 20px;
+  }
+
+  .treatment {
+    height: 24vh;
+    flex-basis: 31%;
+    margin: 1%;
+  }
+
+  .treatments button {
+    font-size: 24px;
+    width: 40%;
+  }
+
+  .treatment h3 {
+    font-size: 22px;
+  }
+
+  .treatment p {
+    display: inline-block;
+    padding: 1% 10px 0 10px;
+    font-size: 20px;
+  }
+
+  .treatment:hover.treatment p {
+    opacity: 1;
+  }
+
+  .treatment:hover {
+    background-size: 130%;
+  }
+
+  .gift-card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card {
+    width: 50%;
+    margin: 2%;
+    transform: translateX(-100vw);
+  }
+
+  .pic-card {
+    width: 40%;
+    height: auto;
+  }
+
+  .card h3 {
+    font-size: 25px;
+  }
+
+  .card p {
+    padding: 10px 0;
+  }
+
+  .card p:nth-of-type(2) {
+    font-size: 22px;
+  }
+
+  .card a p {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .contact {
+    flex-direction: row;
+  }
+
+  .wrap-contact {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 0 1%;
+  }
+
+
+  .data-contact,
+  .wrap-form {
+    margin: 1% 2% 1% 2%;
+    width: 96%;
+  }
+
+  .data-contact h2 {
+    font-size: 22px;
+  }
+
+  .data-contact p:nth-of-type(4) a {
+    font-size: 18px;
+  }
+
+  .form .form-row {
+    width: 100%;
+    margin-bottom: 1.5%;
+  }
+
+  .map {
+    width: 60%;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 94%;
+    margin-top: 2%;
+  }
+
+  .name-adress {
+    display: block;
+  }
+
+  div.cookie {
+    display: block;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1280px) {
+
+  .menu>div:nth-of-type(1) a,
+  .menu>div:nth-of-type(4) a,
+  .menu>div:nth-of-type(5) a,
+  .menu>div:nth-of-type(6) a,
+  .menu>div:nth-of-type(8) a {
+    font-size: 17px;
+    padding: 15px 5px;
+  }
+
+  .menu>div:nth-of-type(2),
+  .menu>div:nth-of-type(3),
+  .menu>div:nth-of-type(6),
+  .menu>div:nth-of-type(7) {
+    font-size: 17px;
+    padding: 15px 5px;
+  }
+
+  .header {
+    height: 40vw;
+  }
+
+  .content h3 {
+    font-size: 40px;
+  }
+
+  .content p {
+    font-size: 23px;
+  }
+
+  .content h4 {
+    font-size: 20px;
+  }
+
+  .wrap-description p {
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .wrap-description {
+    height: 70vh;
+    margin: 5% auto;
+  }
+
+  .treatment {
+    height: 32vh;
+  }
+
+  .map {
+    height: 36vw;
+    margin: 2% 1%;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 96%;
+
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1360px) {
+
+  .menu>div:nth-of-type(1) a,
+  .menu>div:nth-of-type(4) a,
+  .menu>div:nth-of-type(5) a,
+  .menu>div:nth-of-type(6) a,
+  .menu>div:nth-of-type(8) a {
+    font-size: 18px;
+  }
+
+  .menu>div:nth-of-type(2),
+  .menu>div:nth-of-type(3),
+  .menu>div:nth-of-type(6),
+  .menu>div:nth-of-type(7) {
+    font-size: 18px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1440px) {
+
+  .content h3 {
+    font-size: 43px;
+  }
+
+  .content h4 {
+    font-size: 24px;
+  }
+
+  .content p {
+    font-size: 28px;
+  }
+
+  .wrap-description {
+    height: 65vh;
+  }
+
+  .wrap-description p {
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .treatment {
+    height: 27vh;
+  }
+
+  .treatment h3 {
+    font-size: 28px;
+  }
+
+  .treatment p {
+    font-size: 24px;
+  }
+
+  .map {
+    height: 50vh;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 320px) {
+
+  .menu {
+    display: none;
+  }
+
+  .header {
+    margin: 50px 0 0 0;
+    height: 60vw;
+  }
+
+  .header1 img.bgd {
+    width: auto;
+    height: 100%;
+  }
+
+  .header1 .content {
+    background-color: rgba(255, 255, 255, .7);
+  }
+
+  .content h2 {
+    font-size: 19px;
+    padding-bottom: 9px;
+  }
+
+  .content h3 {
+    font-size: 14px;
+    padding-bottom: 9px;
+  }
+
+  .content p {
+    font-size: 11px;
+    font-weight: normal;
+  }
+
+  .content h4 {
+    display: none;
+  }
+
+  .wrap-description {
+    height: 45vh;
+    width: 100%;
+  }
+
+  img.desc-logo {
+    display: none;
+  }
+
+  .wrap-description p {
+    width: 90%;
+    font-size: 18px;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, .7)
+  }
+
+  .wrap-description button {
+    display: none;
+  }
+
+  .hit {
+    background-image: url();
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrap-hit {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .wrap-hit h1 {
+    font-size: 24px;
+  }
+
+  .wrap-hit p span:nth-of-type(1) {
+    font-size: 20px;
+    padding: 0 60px;
+  }
+
+  .wrap-hit p {
+    padding: 5px;
+    line-height: 20px;
+  }
+
+  .treatment {
+    height: 30vh;
+    flex-basis: 100%;
+    margin: 0;
+  }
+
+  .treatments button {
+    margin: 8px 0;
+    width: 100%;
+  }
+
+  .gift-card {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .card h3 {
+    font-size: 21px;
+    padding-left: 5px;
+    border-left: 3px solid;
+  }
+
+  .card p {
+    text-align: justify;
+    padding: 6px 0;
+    font-size: 17px;
+  }
+
+  .card p:nth-of-type(2) {
+    font-size: 17px;
+  }
+
+  .card li {
+    margin-left: 14px;
+    padding: 0 5px;
+    font-size: 17px;
+  }
+
+  .pic-card {
+    width: 100%;
+    height: 35vh;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .data-contact h2 {
+    font-size: 19px;
+    padding: 10px 0;
+  }
+
+  .map {
+    height: 35vh;
+    width: 100%;
+  }
+
+  .name-adress p {
+    display: none;
+  }
+
+  .cookie {
+    display: none;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+  .menu-media {
+    font-size: 24px;
+  }
+
+  .content h2 {
+    font-size: 20px;
+  }
+
+  .content h3 {
+    font-size: 16px;
+  }
+
+  .content p {
+    font-size: 12px;
+  }
+
+  .wrap-description p {
+    font-size: 20px;
+  }
+
+  .wrap-hit h1 {
+    font-size: 26px;
+  }
+
+  .wrap-hit p span:nth-of-type(1) {
+    font-size: 22px;
+  }
+
+  .wrap-hit p {
+    line-height: 21px;
+    font-size: 20px;
+  }
+
+  .treatment h3 {
+    font-size: 25px;
+  }
+
+  .treatment p {
+    font-size: 22px;
+  }
+
+  .card h3 {
+    font-size: 24px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
+
+  .card p:nth-of-type(2) {
+    font-size: 20px;
+  }
+
+  .card li {
+    font-size: 20px;
+  }
+
+  .data-contact h2 {
+    font-size: 22px;
+  }
+
+  .data-contact p {
+    font-size: 19px;
+  }
+
+  .wrap-form h2 {
+    font-size: 18px;
+  }
+
+  .data-contact span,
+  .data-contact p:nth-of-type(4) {
+    font-size: 20px;
+  }
+
+  .data-contact p:nth-of-type(4) a {
+    font-size: 20px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 410px) {
+  .menu-media {
+    font-size: 26px;
+  }
+
+
+  .content h2 {
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+  .content h3 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 15px;
+  }
+
+  .wrap-description p {
+    font-size: 21px;
+  }
+
+  .wrap-hit h1 {
+    font-size: 28px;
+  }
+
+  .wrap-hit p {
+    padding: 5px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .wrap-hit p span:nth-of-type(1) {
+    font-size: 24px;
+    padding: 5px;
+  }
+
+  .wrap-hit p span:nth-of-type(2) {
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .treatment h3 {
+    font-size: 26px;
+  }
+
+  .treatment p {
+    font-size: 20px;
+  }
+
+  .treatments button {
+    font-size: 26px;
+  }
+
+  .card h3 {
+    font-size: 30px;
+  }
+
+  .card li,
+  .card p,
+  .card p:nth-of-type(2) {
+    font-size: 20px;
+  }
+
+  .data-contact h2 {
+    font-size: 24px;
+  }
+
+  .wrap-form h2 {
+    font-size: 20px;
+  }
+
+  .form label {
+    font-size: 15px;
+  }
+
+  .form input[type=text],
+  .form input[type=email],
+  .form textarea {
+    font-size: 16px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 520px) {
+  .content h2 {
+    font-size: 20px;
+    padding-bottom: 9px;
+  }
+
+  .content h3 {
+    font-size: 17px;
+    padding-bottom: 9px;
+  }
+
+  .content p {
+    font-size: 13px;
+    font-weight: normal;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+  .wrap-menu-media {
+    height: 70px;
+  }
+
+  .media-logo img {
+    height: 65px;
+  }
+
+  .menu-media {
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    height: 10vh;
+  }
+
+  .menu-ham {
+    padding: 15px;
+    font-size: 40px;
+  }
+
+  .content h2 {
+    font-size: 55px;
+  }
+
+  .content h3 {
+    font-size: 38px;
+    padding-bottom: 20px;
+  }
+
+  .content p {
+    font-size: 22px;
+  }
+
+  .wrap-description p {
+    font-size: 30px;
+  }
+
+  .wrap-hit h1 {
+    font-size: 36px;
+  }
+
+  .wrap-hit p {
+    padding: 15px;
+    font-size: 27px;
+    line-height: 29px;
+  }
+
+  .wrap-hit p span:nth-of-type(1) {
+    font-size: 33px;
+    padding: 5px;
+  }
+
+  .wrap-hit p span:nth-of-type(2) {
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  .hit {
+    background-image: url();
+  }
+
+  .wrap-hit a button {
+    font-size: 28px;
+    padding: 10px;
+  }
+
+  .treatments .first {
+    justify-content: space-around;
+  }
+
+  .treatments h2 {
+    font-size: 42px;
+  }
+
+  .treatment {
+    flex-basis: 48%;
+    height: 20vh;
+    margin: 4px;
+  }
+
+  .treatment h3 {
+    font-size: 26px;
+  }
+
+  .treatment p {
+    font-size: 32px;
+  }
+
+  .treatments button {
+    font-size: 37px;
+  }
+
+  .card h3 {
+    font-size: 37px;
+  }
+
+  .card li,
+  .card p,
+  .card p:nth-of-type(2) {
+    font-size: 25px;
+  }
+
+  .data-contact h2 {
+    font-size: 27px;
+  }
+
+  .wrap-form h2 {
+    font-size: 27px;
+  }
+
+  .card a p {
+    font-size: 37px;
+  }
+
+  .wrap-contact {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form label {
+    font-size: 16px;
+  }
+
+  .form input[type=text],
+  .form input[type=email],
+  .form textarea {
+    font-size: 16px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 1024px) {
+  .menu {
+    display: flex;
+  }
+
+  .wrap-menu-media {
+    display: none;
+  }
+
+  .header {
+    margin: 170px auto 0;
+    height: 35vh;
+  }
+
+  .header1 img.bgd {
+    width: 100%;
+    height: auto;
+  }
+
+  .content h2 {
+    font-size: 65px;
+  }
+
+  .content h3 {
+    font-size: 45px;
+    padding-bottom: 20px;
+  }
+
+  .content h4 {
+    display: inline-block;
+    color: #052e2c;
+    width: 30%;
+    margin: 0 auto;
+    padding: 3px;
+    font-size: 16px;
+    background-color: rgba(51, 224, 214, .6)
+  }
+
+  .content p {
+    font-size: 28px;
+  }
+
+  .wrap-description {
+    height: 40vh;
+  }
+
+  .treatment h3 {
+    font-size: 30px;
+  }
+
+  .treatment p {
+    font-size: 24px;
+  }
+
+  img.desc-logo {
+    display: block;
+  }
+
+  .wrap-description p {
+    width: 37%;
+  }
+
+  .wrap-description p {
+    font-size: 28px;
+  }
+
+  .wrap-hit {
+    width: 60%;
+  }
+
+  .wrap-hit h1 {
+    font-size: 36px;
+  }
+
+  .wrap-hit p {
+    padding: 10px;
+    font-size: 25px;
+    line-height: 26px;
+  }
+
+  .wrap-hit p span:nth-of-type(1) {
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  .wrap-hit p span:nth-of-type(2) {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .hit {
+    background-image: url(../grafika/zdjecia/twarz2.jpg);
+  }
+
+  .wrap-hit a button {
+    font-size: 24px;
+    padding: 5px;
+  }
+
+  .gift-card {
+    flex-direction: row;
+  }
+
+  .card h3 {
+    font-size: 25px;
+  }
+
+  .card li,
+  .card p,
+  .card p:nth-of-type(2) {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 55%;
+  }
+
+  .pic-card {
+    width: 45%;
+  }
+
+  .data-contact h2 {
+    font-size: 28px;
+  }
+
+  .wrap-form h2 {
+    font-size: 22px;
+  }
+
+  .card a p {
+    font-size: 28px;
+  }
+
+  .wrap-contact {
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .form label {
+    font-size: 16px;
+  }
+
+  .form input[type=text],
+  .form input[type=email],
+  .form textarea {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,340 @@
+@media (orientation: landscape) and (min-width: 533px) {
+  .menu {
+    display: none;
+  }
+
+  header {
+    margin: 60px auto 0;
+    height: 70vh;
+  }
+
+  header h2 {
+    top: 30%;
+    left: 10%;
+    font-size: 55px;
+  }
+
+  div.wrap-prom {
+    background-position: right center;
+  }
+
+  div.prom {
+    width: 100%;
+    margin: 20px auto;
+    padding: 0;
+    background-color: rgba(255, 255, 255, .7);
+    text-align: center;
+  }
+
+  .prom button {
+    font-size: 18px;
+  }
+
+  .name-adress,
+  .cookie {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+  .prom h2 {
+    font-size: 30px;
+  }
+
+  .prom p.prom-title {
+    font-size: 22px;
+  }
+
+  .prom p.prom-impt {
+    font-size: 19px;
+  }
+
+  .prom p {
+    font-size: 19px;
+  }
+
+  .prom button {
+    font-size: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 730px) {
+  .prom h2 {
+    font-size: 31px;
+  }
+
+  .prom p.prom-title {
+    font-size: 24px;
+  }
+
+  .prom p.prom-impt {
+    font-size: 20px;
+  }
+
+  .prom p {
+    font-size: 20px;
+  }
+
+  .prom button {
+    font-size: 20px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+  .menu {
+    display: flex;
+  }
+
+  .wrap-menu-media,
+  .menu-ham {
+    display: none;
+  }
+
+  header {
+    margin: 170px auto 0;
+    height: 50vh;
+  }
+
+  header h2 {
+    font-size: 70px;
+  }
+
+  .name-adress,
+  .cookie {
+    display: block;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1280px) {
+  div.wrap-prom {
+    width: 100%;
+    background-position: right center;
+  }
+
+  div.prom {
+    width: 60%;
+    margin: 2% 5%;
+    padding: 2%;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1360px) {
+  div.prom {
+    width: 55%;
+  }
+
+  .prom h2 {
+    font-size: 28px;
+  }
+
+  .prom p.prom-title {
+    font-size: 22px;
+  }
+
+  .prom p {
+    font-size: 18px;
+  }
+
+  .prom p.prom-impt {
+    font-size: 18px;
+  }
+
+  .prom button {
+    font-size: 18px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1600px) {
+  header h2 {
+    font-size: 100px;
+  }
+
+  div.prom {
+    width: 60%;
+  }
+
+  .prom h2 {
+    font-size: 35px;
+  }
+
+  .prom p.prom-title {
+    font-size: 25px;
+  }
+
+  .prom p {
+    font-size: 21px;
+  }
+
+  .prom p.prom-impt {
+    font-size: 21px;
+  }
+
+  .prom button {
+    font-size: 21px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 320px) {
+  .menu {
+    display: none;
+  }
+
+  header {
+    margin: 60px auto 0;
+    height: 40vh;
+  }
+
+  header h2 {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    font-size: 50px;
+  }
+
+  div.wrap-prom {
+    margin: 0;
+    text-align: center;
+    background-image: url(../grafika/promo-img1.png);
+    background-position: right center;
+    background-size: 700%;
+  }
+
+  div.prom {
+    width: 100%;
+    margin: 0;
+    padding: 0 2px;
+    background-color: rgba(255, 255, 255, .6);
+  }
+
+  .prom h2 {
+    font-size: 25px;
+    margin: 15px 0 0 0;
+  }
+
+  .prom p.prom-title {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  .prom p.prom-impt {
+    font-size: 17px;
+    margin: 10px 0 15px 0;
+  }
+
+  .prom p {
+    font-size: 18px;
+  }
+
+  .prom button {
+    margin-bottom: 20px;
+  }
+
+  .name-adress,
+  .cookie {
+    display: none;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 410px) {
+  header h2 {
+    top: 40%;
+    left: 10%;
+    font-size: 60px;
+  }
+
+  .prom h2 {
+    font-size: 27px;
+  }
+
+  .prom p.prom-title {
+    font-size: 20px;
+  }
+
+  .prom p.prom-impt {
+    font-size: 19px;
+  }
+
+  .prom p {
+    font-size: 20px;
+  }
+
+  .prom button {
+    font-size: 22px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+  .wrap-menu-media {
+    height: 70px;
+  }
+
+  .media-logo img {
+    height: 65px;
+    padding-left: 50px;
+  }
+
+  .menu-media {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: calc(10vh);
+  }
+
+  .menu-ham {
+    padding: 15px;
+    font-size: 40px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 1024px) {
+  .menu {
+    display: flex;
+  }
+
+  .wrap-menu-media {
+    display: none;
+  }
+
+  header {
+    height: 35vh;
+  }
+
+  div.wrap-prom {
+    background-size: 250%;
+  }
+
+  div.prom {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  header h2 {
+    top: 50%;
+    left: 14%;
+    font-size: 80px;
+  }
+
+  .prom h2 {
+    font-size: 40px;
+  }
+
+  .prom p.prom-title {
+    font-size: 28px;
+  }
+
+  .prom p.prom-impt {
+    font-size: 24px;
+  }
+
+  .prom p {
+    font-size: 22px;
+  }
+
+  .prom button {
+    font-size: 26px;
+  }
+
+  .name-adress,
+  .cookie {
+    display: block;
+  }
+}

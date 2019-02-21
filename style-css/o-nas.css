@@ -1,0 +1,150 @@
+/*  div wrap */
+/*~!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+div.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.wrap header {
+  margin: 170px auto 0;
+  background-image: url(../grafika/flower.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+}
+
+.wrap h2 {
+  font-size: 60px;
+  font-family: 'Lora', serif;
+  font-weight: normal;
+  text-shadow: 0 0 6px white;
+  letter-spacing: 2px;
+  line-height: 50vh;
+  padding: 0 4%;
+}
+
+div.opis {
+  margin: 1% auto 2%;
+  text-align: justify;
+  width: 80%;
+}
+
+.opis p {
+  display: block;
+  font-size: 22px;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+p.typing {
+  text-align: center;
+  font-size: 35px;
+  color: #054744;
+  padding: 0 0 2% 0;
+  text-align: center;
+}
+
+.op-zdj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F4F4;
+  margin: 0 1%;
+}
+
+.opis1 {
+  margin: 2% 0 2% 8%;
+  width: 50%;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, .85);
+}
+
+.opis1 p {
+  padding: 2% 4%;
+  line-height: 25px;
+}
+
+.zdj {
+  width: 45%;
+  height: auto;
+  padding: 5% 2%;
+  transform: rotate(4deg);
+  transform-origin: 2%;
+}
+
+.zdj img {
+  margin: 0 auto;
+  width: 95%;
+  height: auto;
+}
+
+.zdj img:nth-of-type(2) {
+  transform: rotate(-8deg) scale(1);
+  transform-origin: 40%;
+}
+
+span.last {
+  display: block;
+  font-size: 40px;
+  font-family: 'Lora', serif;
+  color: #095551;
+  margin: 4% auto;
+}
+
+
+/* footer */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  height: 30px;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1%;
+}
+
+footer div,
+footer div a {
+  color: white;
+  font-size: 14px;
+}
+
+footer div a {
+  text-decoration: none;
+}
+
+footer div a:hover {
+  color: #0fc2b9;
+}
+
+
+/* cookie */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+div .cookie {
+  height: 20px;
+  text-align: center;
+  color: #c28d43;
+  font-size: 11px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.cookie a {
+  text-decoration: none;
+  color: #0fc2b9;
+}

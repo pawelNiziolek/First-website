@@ -1,0 +1,383 @@
+@media (orientation: landscape) and (min-width: 533px) {
+  .menu {
+    display: none;
+  }
+
+  .wrap header {
+    margin: 60px auto 0;
+    height: 60vh;
+  }
+
+  .wrap h2 {
+    font-size: 80px;
+  }
+
+  div.opis {
+    width: 96%;
+  }
+
+  .op-zdj {
+    flex-direction: column;
+  }
+
+  .opis p {
+    font-size: 20px;
+  }
+
+  p.typing {
+    font-size: 24px;
+  }
+
+  .opis1 {
+    margin: 2% auto;
+    width: 90%;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .opis1 p {
+    padding: 2% 4%;
+    line-height: 21px;
+  }
+
+  .zdj {
+    width: 65%;
+  }
+
+  span.last {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .name-adress,
+  .cookie {
+    display: none;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 660px) {
+
+  .opis p {
+    font-size: 22px;
+  }
+
+  p.typing {
+    font-size: 28px;
+  }
+
+  .opis1 {
+    font-size: 20px;
+  }
+
+  .opis1 p {
+    line-height: 22px;
+  }
+
+  span.last {
+    text-align: center;
+    font-size: 27px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 736px) {
+  .opis p {
+    font-size: 26px;
+  }
+
+  p.typing {
+    font-size: 33px;
+  }
+
+  .opis1 {
+    font-size: 23px;
+  }
+
+  .opis1 p {
+    line-height: 26px;
+  }
+
+  span.last {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+  .menu {
+    display: flex;
+  }
+
+  .wrap-menu-media {
+    display: none;
+  }
+
+  .wrap header {
+    margin: 170px auto 0;
+    height: 50vh;
+  }
+
+  .wrap h2 {
+    font-size: 80px;
+  }
+
+  div.opis {
+    margin: 1% auto 2%;
+    text-align: justify;
+    width: 80%;
+  }
+
+  .opis p {
+    font-size: 24px;
+  }
+
+  p.typing {
+    font-size: 37px;
+  }
+
+  .op-zdj {
+    flex-direction: row;
+  }
+
+  .opis1 {
+    width: 75%;
+  }
+
+  .name-adress,
+  .cookie {
+    display: flex;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1280px) {
+  .opis p {
+    font-size: 22px;
+  }
+
+  p.typing {
+    font-size: 35px;
+  }
+
+  .opis1 {
+    font-size: 18px;
+  }
+
+  .opis1 p {
+    line-height: 25px;
+  }
+
+  span.last {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1440px) {
+  .opis p {
+    font-size: 25px;
+  }
+
+  p.typing {
+    font-size: 38px;
+  }
+
+  .opis1 {
+    font-size: 21px;
+  }
+
+  .opis1 p {
+    line-height: 28px;
+  }
+
+  span.last {
+    text-align: center;
+    font-size: 42px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 320px) {
+  .menu {
+    display: none;
+  }
+
+  .wrap header {
+    margin: 60px auto 0;
+    height: 40vh;
+  }
+
+  .wrap h2 {
+    font-size: 60px;
+    line-height: 40vh;
+  }
+
+  div.opis {
+    width: 96%;
+  }
+
+  .op-zdj {
+    flex-direction: column;
+  }
+
+  .opis p {
+    font-size: 18px;
+  }
+
+  p.typing {
+    font-size: 22px;
+  }
+
+  .opis1 {
+    margin: 20px 5px;
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .opis1 p {
+    padding: 2% 4%;
+    line-height: 20px;
+  }
+
+  .zdj {
+    width: 75%;
+  }
+
+  span.last {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .name-adress,
+  .cookie {
+    display: none;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+  .opis p {
+    font-size: 20px;
+  }
+
+  p.typing {
+    font-size: 25px;
+  }
+
+  .opis1 {
+    font-size: 19px;
+  }
+
+  .opis1 p {
+    line-height: 22px;
+  }
+
+  .zdj {
+    width: 80%;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 410px) {
+  .opis p {
+    font-size: 22px;
+  }
+
+  p.typing {
+    font-size: 29px;
+  }
+
+  .opis1 {
+    font-size: 22px;
+  }
+
+  .opis1 p {
+    line-height: 24px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+  .wrap-menu-media {
+    height: 70px;
+  }
+
+  .media-logo img {
+    height: 65px;
+    padding-left: 20px;
+  }
+
+  .menu-media {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10vh;
+  }
+
+  .menu-ham {
+    padding: 15px;
+    font-size: 40px;
+  }
+
+  .wrap h2 {
+    font-size: 80px;
+  }
+
+  .opis p {
+    font-size: 30px;
+  }
+
+  p.typing {
+    font-size: 35px;
+  }
+
+  .opis1 {
+    font-size: 26px;
+  }
+
+  .opis1 p {
+    line-height: 29px;
+  }
+
+  span.last {
+    font-size: 30px;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 1024px) {
+  .menu {
+    display: flex;
+  }
+
+  .wrap-menu-media {
+    display: none;
+  }
+
+  .menu-media {
+    display: none;
+  }
+
+  .wrap h2 {
+    font-size: 100px;
+    line-height: 46vh
+  }
+
+  .opis p {
+    font-size: 32px;
+  }
+
+  p.typing {
+    font-size: 37px;
+  }
+
+  .opis1 {
+    font-size: 28px;
+  }
+
+  .opis1 p {
+    line-height: 31px;
+  }
+
+  span.last {
+    font-size: 32px;
+  }
+
+  .name-adress,
+  .cookie {
+    display: block;
+  }
+}

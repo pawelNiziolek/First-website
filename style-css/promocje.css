@@ -1,0 +1,90 @@
+header {
+  position: relative;
+  margin: 170px auto 0;
+  background-image: url(../grafika/promo-gift.jpg);
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+}
+
+
+header h2 {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-size: 70px;
+  font-family: 'Lora', serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #084441;
+}
+
+div.wrap-prom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(../grafika/promo-img1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.prom {
+  width: 50%;
+  margin: 2% 5%;
+  padding: 2%;
+}
+
+.prom h2 {
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 3%;
+  color: #043d3a;
+  letter-spacing: 1px;
+}
+
+.prom p.prom-title {
+  margin: 2% 0;
+  font-size: 22px;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #054744;
+  color: #4d2f05;
+}
+
+.prom p {
+  font-family: 'Roboto', sans-serif;
+  padding: 1%;
+  color: #054744;
+}
+
+.prom span {
+  text-decoration: line-through;
+}
+
+.prom p.prom-impt {
+  font-size: 18px;
+  color: #054744;
+  margin: 2% 0 3% 0;
+}
+
+.prom button {
+  padding: 1% 2%;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 3%;
+  background-color: #1a9993;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.prom button:hover {
+  background-color: #96692af5;
+}
