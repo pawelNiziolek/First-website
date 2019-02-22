@@ -1009,6 +1009,7 @@ footer {
   width: 100%;
   max-width: 1920px;
   height: 30px;
+  padding: 5px;
   background-color: black;
   font-family: 'Roboto', sans-serif;
 }
