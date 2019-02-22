@@ -196,24 +196,23 @@
         </div>
         <div class="wrap-form">
           <h2>Wypełnij formularz i uzyskaj odpowiedź na swoje pytania.</h2>
-          <form class="form" id="contactForm" method="post" novalidate action="/send-script.php">
+          <form class="form" id="contactForm">
             <div class="form-row">
               <label for="field-name">Imię Nazwisko*</label>
-              <input type="text" name="name" required id="field-name" data-error="Wypełnij to pole" pattern="[a-zA-ZąĄććęęłŁńŃóÓśŚżŻŹŹ ]+">
+              <input type="text" name="name" >
             </div>
             <div class="form-row">
               <label for="field-email">Email*</label>
-              <input type="email" name="email" required id="field-email" data-error="Wpisz poprawny email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+              <input type="email" name="email">
             </div>
             <div class="form-row">
               <label for="field-message">Wiadomość*</label>
-              <textarea name="message" required data-error="Musisz wypełnić pole" id="field-message" pattern=".+"></textarea>
+              <textarea name="message"></textarea>
             </div>
             <div class="form-row">
               <label class="checkbox-cnt">
-                <input type="checkbox" required data-error="Musisz wypełnić pole" name="regulation">
-                <i class="state" aria-hidden="true"></i>
-                <span><a target="blank" href="/pliki/Zasady przetwarzania danych osobowych.pdf"> Zapoznałem się z
+                <input type="checkbox"/>
+                <span><a target="blank" href="pliki/Zasady przetwarzania danych osobowych.pdf"> Zapoznałem się z
                     informacjami dotyczącymi zasad przetwarzania moich danych osobowych.</a></span>
               </label>
             </div>
@@ -242,7 +241,7 @@
     </footer>
     <div class="cookie">
       <p>Nasza strona wykorzystuje pliki cookie zgodnie z aktualnymi ustawieniami Twojej przeglądarki. |
-        <a target="_blank" href="/pliki/polityka-plikow-cookie.pdf" class="kolor-1 link">Sprawdź szczegóły</a></p>
+        <a target="_blank" href="pliki/polityka-plikow-cookie.pdf" class="kolor-1 link">Sprawdź szczegóły</a></p>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
