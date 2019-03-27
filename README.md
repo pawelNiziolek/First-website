@@ -28,7 +28,7 @@ This is my first website, using the example of a beauty salon. I used html, css,
 
 ## Status
 
-Project is: _finished_
+Project is: _no longer continue_ (only for skill training)
 
 ## Inspiration
 
