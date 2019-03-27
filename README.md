@@ -13,7 +13,7 @@ This is my first website, using the example of a beauty salon. I used html, css,
 
 ## Screenshots
 
-![Example screenshot](.src/grafika/screenshot.png)
+![Example screenshot](./grafika/zdjecia/screenshot.png)
 
 ## Technologies
 
@@ -24,7 +24,7 @@ This is my first website, using the example of a beauty salon. I used html, css,
 
 ## Setup
 
-[https://pawelniziolek.github.io/First-website/index.html]
+[link to the website](https://pawelniziolek.github.io/First-website/index.html)
 
 ## Status
 
