@@ -36,4 +36,4 @@ Based on [Beauty-Story](https://www.beauty-story.pl/)
 
 ## Contact
 
-Created by Paweł Niziołek e-mail: pawel.r.niziolek@gmail.com - contact me!
+Created by Paweł Niziołek e-mail: pawel.r.niziolek@gmail.com or linkedIn: https://www.linkedin.com/in/pawel-niziolek/- contact me!
