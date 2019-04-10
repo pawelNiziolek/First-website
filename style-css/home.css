@@ -537,27 +537,27 @@ img.desc-logo {
 }
 
 .first .treatment:nth-of-type(1) {
-  background-image: url(../grafika/zdjecia/karbo.jpg)
+  background-image: url(../grafika/pictures/karbo.jpg)
 }
 
 .first .treatment:nth-of-type(2) {
-  background-image: url(../grafika/zdjecia/peeling1.jpg);
+  background-image: url(../grafika/pictures/peeling1.jpg);
 }
 
 .first .treatment:nth-of-type(3) {
-  background-image: url(../grafika/zdjecia/Mezoter.jpg)
+  background-image: url(../grafika/pictures/Mezoter.jpg)
 }
 
 .first .treatment:nth-of-type(4) {
-  background-image: url(../grafika/zdjecia/wyszczuplanie.jpg)
+  background-image: url(../grafika/pictures/wyszczuplanie.jpg)
 }
 
 .first .treatment:nth-of-type(5) {
-  background-image: url(../grafika/zdjecia/blizny1.jpg)
+  background-image: url(../grafika/pictures/blizny1.jpg)
 }
 
 .first .treatment:nth-of-type(6) {
-  background-image: url(../grafika/zdjecia/depilacja.jpg)
+  background-image: url(../grafika/pictures/depilacja.jpg)
 }
 
 .treatments button {

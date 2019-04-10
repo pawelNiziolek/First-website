@@ -94,11 +94,11 @@ const aHtml = document.querySelector(".content a");
 
 // info o tablichach elemnów podmienionych:
 const image = [
-  "grafika/zdjecia/kosmet1.jpg",
-  "grafika/zdjecia/blackdoll.jpg",
-  "grafika/zdjecia/karbo3.jpg",
-  "grafika/zdjecia/wodorowe.jpg",
-  "grafika/zdjecia/tattoo.jpg"
+  "grafika/pictures/kosmet1.jpg",
+  "grafika/pictures/blackdoll.jpg",
+  "grafika/pictures/karbo3.jpg",
+  "grafika/pictures/wodorowe.jpg",
+  "grafika/pictures/tattoo.jpg"
 ];
 const h2 = [
   "BEAUTY STORY",
@@ -129,11 +129,11 @@ const h4 = [
   "Zobacz kartę zabiegów"
 ];
 const a = [
-  "../pliki.html/zabiegi-opis.html",
-  "../pliki.html/zabiegi-opis.html",
-  "../pliki.html/zabiegi-opis.html",
-  "../pliki.html/zabiegi-opis.html",
-  "../pliki.html/zabiegi-opis.html"
+  "../files.html/treatments-description.html",
+  "../files.html/treatments-description.html",
+  "../files.html/treatments-description.html",
+  "../files.html/treatments-description.html",
+  "../files.html/treatments-description.html"
 ];
 
 function changeElement() {
