@@ -1,8 +1,8 @@
 $(document).on('scroll', function () {
-  // wartości wspólne:
+  // common values:
   const windowHeight = $(window).height();
   const scrollValue = $(this).scrollTop();
-  //sekcja menu:
+  //menu section:
   const $menu = $('.menu');
   const menuFromTop = $menu.offset().top;
   const menuHeight = $menu.outerHeight();
@@ -18,7 +18,7 @@ $(document).on('scroll', function () {
     $logo.addClass('logoScl');
   }
 
-  // czyściciel:
+  // scourer:
   if (scrollValue < 40) {
     $('nav').removeClass('scroll');
   }
@@ -33,7 +33,7 @@ $(".menu-ham").on("click", function () {
   $(".menu-media").toggleClass('ready');
 })
 
-//efekt typing:
+//typing efect:
 const spnText = document.querySelector('.typing');
 const txt = 'Zacznij pisać swoją własną historię piękna...'
 

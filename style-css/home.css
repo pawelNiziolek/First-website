@@ -1,12 +1,12 @@
-/* style strony główej*/
+/* styles of the main page*/
 
-/* czcionki :
+/* fonts :
 font-family: 'Roboto', sans-serif; 
 font-family: 'Lora', serif;
 */
-/* kolory:
-#33e0d6 - niebieski,
-#daad6d - kremowy ??,
+/* colors:
+#33e0d6 - blue,
+#daad6d - cream-colored??,
  */
 
 * {
@@ -26,7 +26,7 @@ body {
   flex-direction: column;
 }
 
-/* menu mediaa*/
+/* menu media*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .wrap-menu-media {
   position: fixed;
@@ -217,7 +217,7 @@ div.visit a {
   padding: 16px 5px;
 }
 
-/* menu po najechaniu */
+/* hover menu*/
 
 .line.card-tr,
 .line.card-price {

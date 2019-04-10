@@ -1,9 +1,9 @@
 // menu!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 $(document).on('scroll', function () {
-  // wartości wspólne:
+  // common values:
   const windowHeight = $(window).height();
   const scrollValue = $(this).scrollTop();
-  //sekcja menu:
+  //menu section:
   const $menu = $('.menu');
   const menuFromTop = $menu.offset().top;
   const menuHeight = $menu.outerHeight();
@@ -19,7 +19,7 @@ $(document).on('scroll', function () {
     $logo.addClass('logoScl');
   }
 
-  // czyściciel:
+  // scourer:
   if (scrollValue < 40) {
     $('nav').removeClass('scroll');
   }
@@ -35,7 +35,7 @@ $(".menu-ham").on("click", function () {
 })
 
 
-// zabiegi rozwijane!!!!!!!!!!!!!!!!!!!!!!!!!!
+// rolled treatments !!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 const tf1 = document.querySelector('.tf1');
@@ -155,7 +155,7 @@ const htwo36 = document.querySelector('h2.t36');
 const htwo37 = document.querySelector('h2.t37');
 const htwo38 = document.querySelector('h2.t38');
 
-// klasy divów
+// divs classes
 // '.tf1', '.tf2', '.tf3', '.tf4', '.tf5', '.tk1', '.tm1', '.tm2', '.tm3', '.tp1', '.tp2', '.tp3', '.tp4', '.tp5', '.tp6', '.tfo1', '.tfo2', '.tfo3', '.tpw1', '.twos1', '.tre1', '.tre2', '.tre3', '.tre4', '.tu1', '.tu2', '.tfr1', '.tfr2', '.tfr3', '.tfr4', '.tfr5', '.tbr1', '.tma1', '.tma2', '.tma3', '.tdl1', '.tlr1', '.tdm1'
 
 htwo1.addEventListener('click', () => {

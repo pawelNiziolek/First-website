@@ -1,10 +1,10 @@
 // menu
 $(document).on("scroll", function() {
-  // wartości wspólne:
+  // common values:
   const windowHeight = $(window).height();
   const scrollValue = $(this).scrollTop();
 
-  // sekcja card:
+  // card section:
   const $picCards = $(".pic-card");
   const picCardsFromTop = $picCards.offset().top;
   const picCardsHeight = $picCards.outerHeight();
@@ -19,12 +19,12 @@ $(document).on("scroll", function() {
   if (scrollValue > cardsFromTop + cardsHeight / 4 - windowHeight) {
     $cards.addClass("active");
   }
-  // czyściciel:
+  // scourer:
   if (scrollValue < 800) {
     $("div").removeClass("active");
   }
 
-  //sekcja hit:
+  //hit section:
   const $wrapHit = $(".wrap-hit");
   const wrapHitFromTop = $wrapHit.offset().top;
   const wrapHitHeight = $wrapHit.outerHeight();
@@ -33,12 +33,12 @@ $(document).on("scroll", function() {
     $wrapHit.addClass("grow");
   }
 
-  // czyściciel:
+  // scourer:
   if (scrollValue < 400) {
     $("div").removeClass("grow");
   }
 
-  //sekcja menu:
+  //menu section:
   const $menu = $(".menu");
   const menuFromTop = $menu.offset().top;
   const menuHeight = $menu.outerHeight();
@@ -54,7 +54,7 @@ $(document).on("scroll", function() {
     $logo.addClass("logoScl");
   }
 
-  // czyściciel:
+  // scourerl:
   if (scrollValue < 40) {
     $("nav").removeClass("scroll");
   }
@@ -69,7 +69,7 @@ $(".menu-ham").on("click", function() {
   $(".menu-media").toggleClass("ready");
 });
 
-// sekcja contact (scroll na sekcje):
+// contact section (scroll to the section):
 $(".cont").on("click", function() {
   $("body, html").animate(
     {
@@ -79,12 +79,12 @@ $(".cont").on("click", function() {
   );
 });
 
-//sekcja header
-//parametry
+//header section
+//parameters
 let activeElement = 0;
 const timeChange = 8000;
 
-//elementy do pracy
+//elements for works
 const imageHtml = document.querySelector(".bgd");
 const h2Html = document.querySelector(".content h2");
 const h3Html = document.querySelector(".content h3");
@@ -92,7 +92,7 @@ const h4Html = document.querySelector(".content h4");
 const pHtml = document.querySelector(".content p");
 const aHtml = document.querySelector(".content a");
 
-// info o tablichach elemnów podmienionych:
+// informtions about tables of replaced elements:
 const image = [
   "graphics/pictures/kosmet1.jpg",
   "graphics/pictures/blackdoll.jpg",
