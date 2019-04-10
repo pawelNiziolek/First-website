@@ -13,7 +13,7 @@ This is my first website, using the example of a beauty salon. I used html, css,
 
 ## Screenshots
 
-![Screenshot](./grafika/screenshot.png)
+![Screenshot](./graphics/screenshot.png)
 
 ## Technologies
 
