@@ -1,7 +1,7 @@
 header {
   position: relative;
   margin: 170px auto 0;
-  background-image: url(../grafika/promo-gift.jpg);
+  background-image: url(../graphics/promo-gift.jpg);
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@ div.wrap-prom {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-image: url(../grafika/promo-img1.png);
+  background-image: url(../graphics/promo-img1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

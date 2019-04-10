@@ -135,7 +135,7 @@ body {
 }
 
 div.logo {
-  background-image: url(../grafika/logo1.png);
+  background-image: url(../graphics/logo1.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 170px;
@@ -144,7 +144,7 @@ div.logo {
 }
 
 div.logo.logoScl {
-  background-image: url(../grafika/logo0.png);
+  background-image: url(../graphics/logo0.png);
   margin: 0 auto;
   height: 60px;
 }
@@ -370,7 +370,7 @@ div.visit a {
   height: 70vh;
   max-height: 700px;
   margin: 5% auto;
-  background-image: url(../grafika/tlo-desc3.jpg);
+  background-image: url(../graphics/tlo-desc3.jpg);
   background-size: cover;
   text-align: center;
   overflow: hidden;
@@ -428,7 +428,7 @@ img.desc-logo {
   display: flex;
   width: 100%;
   margin: 2% 0 4% 0;
-  background-image: url(../grafika/zdjecia/twarz2.jpg);
+  background-image: url(../graphics/zdjecia/twarz2.jpg);
   background-size: cover;
   background-position: right bottom;
   background-repeat: no-repeat;
@@ -537,27 +537,27 @@ img.desc-logo {
 }
 
 .first .treatment:nth-of-type(1) {
-  background-image: url(../grafika/pictures/karbo.jpg)
+  background-image: url(../graphics/pictures/karbo.jpg)
 }
 
 .first .treatment:nth-of-type(2) {
-  background-image: url(../grafika/pictures/peeling1.jpg);
+  background-image: url(../graphics/pictures/peeling1.jpg);
 }
 
 .first .treatment:nth-of-type(3) {
-  background-image: url(../grafika/pictures/Mezoter.jpg)
+  background-image: url(../graphics/pictures/Mezoter.jpg)
 }
 
 .first .treatment:nth-of-type(4) {
-  background-image: url(../grafika/pictures/wyszczuplanie.jpg)
+  background-image: url(../graphics/pictures/wyszczuplanie.jpg)
 }
 
 .first .treatment:nth-of-type(5) {
-  background-image: url(../grafika/pictures/blizny1.jpg)
+  background-image: url(../graphics/pictures/blizny1.jpg)
 }
 
 .first .treatment:nth-of-type(6) {
-  background-image: url(../grafika/pictures/depilacja.jpg)
+  background-image: url(../graphics/pictures/depilacja.jpg)
 }
 
 .treatments button {
@@ -636,7 +636,7 @@ img.desc-logo {
 }
 
 .pic-card {
-  background-image: url("../grafika/karrta2.jpg");
+  background-image: url(../graphics/karrta2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

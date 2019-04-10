@@ -94,11 +94,11 @@ const aHtml = document.querySelector(".content a");
 
 // info o tablichach elemnów podmienionych:
 const image = [
-  "grafika/pictures/kosmet1.jpg",
-  "grafika/pictures/blackdoll.jpg",
-  "grafika/pictures/karbo3.jpg",
-  "grafika/pictures/wodorowe.jpg",
-  "grafika/pictures/tattoo.jpg"
+  "graphics/pictures/kosmet1.jpg",
+  "graphics/pictures/blackdoll.jpg",
+  "graphics/pictures/karbo3.jpg",
+  "graphics/pictures/wodorowe.jpg",
+  "graphics/pictures/tattoo.jpg"
 ];
 const h2 = [
   "BEAUTY STORY",

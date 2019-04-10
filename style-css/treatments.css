@@ -56,80 +56,80 @@
 }
 
 .faces.f1 {
-  background-image: url(../grafika/f1.jpg);
+  background-image: url(../graphics/f1.jpg);
   background-size: cover;
 }
 
 .faces.f2 {
-  background-image: url(../grafika/f2.jpg);
+  background-image: url(../graphics/f2.jpg);
   background-position: top;
   background-size: cover;
 }
 
 .faces.f3 {
-  background-image: url(../grafika/f3.jpg);
+  background-image: url(../graphics/f3.jpg);
   background-size: cover;
 }
 
 .faces.f4 {
-  background-image: url(../grafika/f4.jpg);
+  background-image: url(../graphics/f4.jpg);
   background-size: cover;
 }
 
 .faces.f5 {
-  background-image: url(../grafika/f5.jpg);
+  background-image: url(../graphics/f5.jpg);
   background-size: cover;
   background-position: top;
 }
 
 .faces.f6 {
-  background-image: url(../grafika/f6.png);
+  background-image: url(../graphics/f6.png);
   background-size: cover;
   background-position: top;
 }
 
 .faces.f7 {
-  background-image: url(../grafika/f7.png);
+  background-image: url(../graphics/f7.png);
   background-size: cover;
 }
 
 .faces.f8 {
-  background-image: url(../grafika/f8.jpg);
+  background-image: url(../graphics/f8.jpg);
   background-size: cover;
 }
 
 .faces.f9 {
-  background-image: url(../grafika/f9.jpg);
+  background-image: url(../graphics/f9.jpg);
   background-size: cover;
 }
 
 .bodys.b1 {
-  background-image: url(../grafika/b1.jpg);
+  background-image: url(../graphics/b1.jpg);
   background-size: cover;
 }
 
 .bodys.b2 {
-  background-image: url(../grafika/f1.jpg);
+  background-image: url(../graphics/f1.jpg);
   background-size: cover;
 }
 
 .bodys.b3 {
-  background-image: url(../grafika/b3.jpg);
+  background-image: url(../graphics/b3.jpg);
   background-size: cover;
 }
 
 .laser.l1 {
-  background-image: url(../grafika/l1.jpg);
+  background-image: url(../graphics/l1.jpg);
   background-size: cover;
 }
 
 .laser.l2 {
-  background-image: url(../grafika/l2.jpg);
+  background-image: url(../graphics/l2.jpg);
   background-size: cover;
 }
 
 .men {
-  background-image: url(../grafika/m1.jpg);
+  background-image: url(../graphics/m1.jpg);
   background-size: cover;
 }
 

@@ -101,7 +101,7 @@
   }
 
   body {
-    background-image: url(../grafika/yellow-flower.jpg);
+    background-image: url(../graphics/yellow-flower.jpg);
     background-size: 263%;
     background-position: right center;
   }
@@ -371,7 +371,7 @@
   }
 
   body {
-    background-image: url(../grafika/yellow-flower.jpg);
+    background-image: url(../graphics/yellow-flower.jpg);
     background-size: 263%;
     background-position: right center;
   }

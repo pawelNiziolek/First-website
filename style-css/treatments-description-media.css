@@ -84,7 +84,7 @@
    }
 
    body {
-     background-image: url(../grafika/treat-face.jpg);
+     background-image: url(../graphics/treat-face.jpg);
      background-size: 255%;
    }
 
@@ -300,7 +300,7 @@
    }
 
    body {
-     background-image: url(../grafika/treat-face.jpg);
+     background-image: url(../graphics/treat-face.jpg);
      background-size: 255%;
    }
 
